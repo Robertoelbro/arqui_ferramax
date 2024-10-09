@@ -20,3 +20,15 @@ datos=siete.cuadro(
 )
 
 print(datos)
+
+tipo_cambio = siete.cuadro(
+  series=["F072.TCO.PRE.Z.Z.M"],
+  nombres=["tipo_cambio"],
+  desde="2023-10-04",  
+  hasta="2023-10-07",  
+  frecuencia="D",  
+  observado={"tipo_cambio": "last"}  
+)
+
+print("Tipo de cambio de los últimos 3 días:")
+print(tipo_cambio)
