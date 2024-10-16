@@ -32,3 +32,4 @@ tipo_cambio = siete.cuadro(
 
 print("Tipo de cambio de los últimos 3 días:")
 print(tipo_cambio)
+  
